@@ -1,14 +1,14 @@
 # CTDcompare
-Compare 3 different instruments (CTDs in this example) measuring similar parameters. Output statistcis and graphics on pdf page for each parameter + independant plot + idependant csv file with statistics.
+Compares 3 different instruments (CTDs in this example) measuring similar marine parameters (Température, Conductivity, etc...). Outputs statistcis and graphics on a pdf page for each parameter + independant plot + idependant csv file with statistics.
 
-Say one instrument is your reference and you want to check the performances of the other 2 against this reference. That could be it.
+Say one instrument is your reference and you want to check the performances of the other 2 against this reference. You might be in the right place.
+
 Here we want to compare two RBR Maestro against one SBE 19+ during a stabilization at 2m depth during 5 min approx.
-
-
-At the moment, the script is formatted to read specific input files with date format YYYY-MM-DD HH:MM:SS,000.
+At the moment, the script is formatted to read specific input files with date format YYYY-MM-DD HH:MM:SS,000 and a column 'date' at least.
 
 You can adapt this script for other types of measurements, other parameters by changing the names of the parameters, units and nominal accuracies in the main.py.
-main.py reads the csv files, create the dataframes and contain the parameters to check.
+
+main.py reads the csv files, create the dataframes and contains the parameters to check.
 functions.py contains a couple of functions that are called in the main.
 
 Hope it helps somenone. Cheers.
