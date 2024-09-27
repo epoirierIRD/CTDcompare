@@ -1,7 +1,7 @@
 # CTDcompare
 Sorry if some comments are still in french in the code.
 
-This code compares 3 different instruments (CTDs in this example but could be other time series) measuring similar marine parameters (Température, Conductivity, etc...) on a short period of time. Outputs statistics and graphics on a pdf page for each parameter + independant plot + idependant csv file with statistics.
+This code compares 3 different instruments (CTDs in this example but could be other time series) measuring similar marine parameters (Temperature, Conductivity, etc...) on a short period of time. Outputs statistics and graphics on a pdf page for each parameter + independant plot + idependant csv file with statistics.
 
 Input data:
 rbr_231853.csv
