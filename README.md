@@ -1,7 +1,14 @@
 # CTDcompare
-Compares 3 different instruments (CTDs in this example) measuring similar marine parameters (Température, Conductivity, etc...). Outputs statistcis and graphics on a pdf page for each parameter + independant plot + idependant csv file with statistics.
+Sorry if some comments are still in French in the text.
 
-Say one instrument is your reference and you want to check the performances of the other 2 against this reference. You might be in the right place.
+This code compares 3 different instruments (CTDs in this example but could be other time series) measuring similar marine parameters (Température, Conductivity, etc...) on a short period of time. Outputs statistics and graphics on a pdf page for each parameter + independant plot + idependant csv file with statistics.
+
+Input data:
+rbr_231853.csv
+rbr_236135.csv
+sbe_tile_corrected.csv
+
+Say one instrument is your reference (SBE here) and you want to check the performances of the other 2 against this reference. You might be in the right place.
 
 Here we want to compare two RBR Maestro against one SBE 19+ during a stabilization at 2m depth during 5 min approx.
 At the moment, the script is formatted to read specific input files with date format YYYY-MM-DD HH:MM:SS,000 and a column 'date' at least.
